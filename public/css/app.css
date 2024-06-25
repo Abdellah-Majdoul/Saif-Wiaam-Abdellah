@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+
+  
+  }
+  
+  h1 {
+      color: rgb(46, 46, 46);
+     
+  }
+     
+  
+  p {
+      color: gray;
+      font-size: 20px;
+    
+  }
+  
+  .parent1 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+  
+  .link {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  }
+  
+  button {
+      width: 170px;
+      height: 5vh;
+      background-color: rgb(107, 23, 218);
+      color: white;
+      border: none;
+      border-radius: 5px;
+  }
+  
+  a {
+      text-decoration: none;
+      color: gray;
+  }
+  
+  .parent2{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   gap: 3vh;
+  }
+  
+  .footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4vh;
+}
+.input{
+   
+    height: 8vh;
+    width: 40vw;
+    border-color:  rgb(107, 23, 218);
+    border-radius: 5px; 
+  
+}
+.button{
+   
+    padding: 7px;
+    height:8vh;
+    background-color: rgb(107, 23, 218);
+    color: white;
+    border:none;
+    border-radius: 5px;  
+    width: 40vw;
+}
+ .form{
+    gap: 1vh;
+ }
+  .multi-side{
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    justify-content: space-between;
+    gap: 60vh;
+  }
+  .prgh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .right-side{
+    display: flex;
+    gap: 1vw;
+  }
+  
+
+ 
