@@ -17,13 +17,18 @@
     
   }
   
-  .parent1 {
+  .navbar {
       display: flex;
       justify-content: space-around;
       align-items: center;
+      flex-wrap: wrap;
+      padding: 15px;
+  }
+  #toggler,.navbar label{
+    display: none;
   }
   
-  .link {
+  .list {
       display: flex;
       align-items: center;
       gap: 20px;
@@ -94,6 +99,42 @@
     display: flex;
     gap: 1vw;
   }
-  
 
+
+
+  @media (max-width:426px) {
+    .list{
+       width: 100%;
+       max-height: 0;
+       overflow: hidden;
+       
+    }
+    .navbar label{
+        display: inline-flex;
+        align-items: center;
+       
+    }
+    #toggler:checked ~ .list{
+        max-height: 100%;
+    }
+    input{
+        z-index: 100;
+    }
+
+    .image1{
+        width: 100vw;
+     
+    }
+  .parent2{
+    padding-left: 60vw;
+  
+  }
+  .logo{
+    padding-left: 60vw;
+    
+  }
+  .prg1{
+    padding-left: 40vw;
+  }
+   }
  
